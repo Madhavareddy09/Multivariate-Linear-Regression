@@ -33,7 +33,7 @@ Use the trained model to make predictions. In your example, you predict the CO2 
 
 Print the coefficients, intercept, and the predicted CO2 value.
 ## Program:
-
+```
 '''
 Program for multivariate linear regression and to predict a unknown variable using the given dataset.
 Developed By: K Madhava Reddy
@@ -50,7 +50,7 @@ print("Coefficients:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictCO2)
-
+```
 ## Output:
 ![image](https://github.com/Madhavareddy09/Multivariate-Linear-Regression/assets/145742470/f5756da7-582a-4003-bc1c-04d14778b1b3)
 
